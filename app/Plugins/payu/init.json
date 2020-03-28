@@ -1,0 +1,10 @@
+{
+    "name": "payu",
+    "version": "1.6",
+    "display_name": "PayU",
+    "description": "Payment with PayU",
+    "author": "Bedigit",
+    "category": "payment",
+    "has_installer": true,
+    "item_id": "20441945"
+}

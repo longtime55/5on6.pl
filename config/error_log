@@ -1,0 +1,108 @@
+[28-Mar-2019 01:17:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/cookie-consent.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/cookie-consent.php on line 8
+[28-Mar-2019 01:21:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/backup.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/backup.php on line 27
+[28-Mar-2019 01:22:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/fiveon6/public_html/config/purifier.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/purifier.php on line 22
+[28-Mar-2019 01:23:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/database.php on line 16
+[28-Mar-2019 01:24:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/recaptcha.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/recaptcha.php on line 17
+[28-Mar-2019 01:24:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/fiveon6/public_html/config/dotenv-editor.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/dotenv-editor.php on line 25
+[28-Mar-2019 01:27:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/laravellocalization.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/laravellocalization.php on line 14
+[28-Mar-2019 01:27:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/geoip.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/geoip.php on line 12
+[28-Mar-2019 01:29:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/session.php on line 21
+[28-Mar-2019 01:32:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/image.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/image.php on line 18
+[28-Mar-2019 01:33:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function config() in /home/fiveon6/public_html/config/laravel-impersonate.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/laravel-impersonate.php on line 16
+[28-Mar-2019 01:34:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/mail.php:113
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/mail.php on line 113
+[28-Mar-2019 01:34:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/services.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/services.php on line 50
+[28-Mar-2019 01:34:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/broadcasting.php on line 18
+[28-Mar-2019 01:36:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/queue.php on line 16
+[28-Mar-2019 01:39:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/logging.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/logging.php on line 19
+[28-Mar-2019 01:39:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/cache.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/cache.php on line 20
+[28-Mar-2019 01:40:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/filesystems.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/filesystems.php on line 18
+[28-Mar-2019 01:42:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/fiveon6/public_html/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/view.php on line 17
+[28-Mar-2019 01:43:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/hashing.php on line 32
+[28-Mar-2019 01:46:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/cookie-consent.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/cookie-consent.php on line 8
+[28-Mar-2019 01:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/fiveon6/public_html/config/dotenv-editor.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/dotenv-editor.php on line 25
+[28-Mar-2019 01:56:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/geoip.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/geoip.php on line 12
+[28-Mar-2019 02:01:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/image.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/image.php on line 18
+[28-Mar-2019 02:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/services.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/services.php on line 50
+[28-Mar-2019 02:03:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/broadcasting.php on line 18
+[28-Mar-2019 02:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/fiveon6/public_html/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/config/queue.php on line 16

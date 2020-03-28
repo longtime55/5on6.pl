@@ -1,0 +1,8 @@
+[28-Mar-2019 01:29:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/fiveon6/public_html/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/bootstrap/app.php on line 14
+[28-Mar-2019 01:58:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/fiveon6/public_html/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/fiveon6/public_html/bootstrap/app.php on line 14

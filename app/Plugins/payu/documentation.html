@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>PayU Documentation</title>
+	<style>
+		body {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			background-color: #f0f0f0;
+		}
+		
+		hr {
+			border-top: 1px solid #8c8b8b;
+		}
+		
+		#content {
+			background-color: #ffffff;
+			margin-left: auto;
+			margin-right: auto;
+			width: 900px;
+			padding: 20px;
+		}
+		
+		pre {
+			font-family: "Courier 10 Pitch", Courier, monospace;
+			font-size: 14px;
+			line-height: 140%;
+			white-space: pre;
+			white-space: pre-wrap;
+			white-space: -moz-pre-wrap;
+			white-space: -o-pre-wrap;
+		}
+		
+		code {
+			font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+			font-size: 13px;
+			line-height: 140%;
+			white-space: pre;
+			white-space: pre-wrap;
+			white-space: -moz-pre-wrap;
+			white-space: -o-pre-wrap;
+			background: #faf8f0;
+			padding: 5px;
+		}
+		
+		li {
+			line-height: 140%;
+		}
+	</style>
+</head>
+
+<body>
+<div id="content">
+	<h2>DOCUMENTATION</h2>
+	<hr>
+	<br>
+	PayU (v1.6) plugin for <a href="https://codecanyon.net/item/laraclassified-geo-classified-ads-cms/16458425?ref=BedigitCom" target="_blank">LaraClassified</a> and <a
+		href="https://codecanyon.net/item/jobclass-geolocalized-job-portal-script/18776089?ref=BedigitCom" target="_blank">JobClass</a>.
+	
+	<h3>Installation</h3>
+	To install this plugin:
+	
+	<ul>
+		<li>Copy the plugin's (uncompressed) folder into the script's plugins folder like this: <code>/app/Plugins/payu/</code></li>
+		<li>Go to your Admin panel &rarr; Plugins (and click on "Install") to install it.</li>
+	</ul>
+	
+	<h3>Compatibility</h3>
+	<ul>
+		<li>v1.6+ => LaraClassified v6.6+ and JobClass v5.4+</li>
+		<li>v1.5 => LaraClassified (v5.7 to v6.5) and JobClass (v4.5 to v5.3)</li>
+		<li>v1.4 => LaraClassified (v5.2 to v5.6) and JobClass (v4.0 to v4.4)</li>
+		<li>v1.3 => LaraClassified v5.1 and JobClass v3.9</li>
+		<li>v1.2 => LaraClassified (v4.9 to v5.0) and JobClass (v3.7 to v3.8)</li>
+		<li>v1.0 to v1.1 => LaraClassified (v3.1 to v4.8) and JobClass (v2.0 to v3.6)</li>
+	</ul>
+	
+	<h3>Update</h3>
+	Replace all the plugin's files on your server.
+	
+	<h3>Configuration</h3>
+	Add the settings below in the script's <code>/.env</code> file on your server:
+	
+	<pre>
+PAYU_MODE=
+PAYU_POS_ID=
+PAYU_SECOND_KEY=
+PAYU_OAUTH_CLIENT_SECRET=
+    </pre>
+	
+	Example of use:
+	
+	<pre>
+PAYU_MODE=your-payu-mode
+PAYU_POS_ID=your-payu-point-of-sale-id
+PAYU_SECOND_KEY=your-payu-second-key
+PAYU_OAUTH_CLIENT_SECRET=your-payu-oauth-client-secret
+    </pre>
+	
+	<h3>Translation</h3>
+	To translate this plugin into your language:
+	
+	<ul>
+		<li>Go to the languages folder at <code>/app/Plugins/payu/resources/lang/</code></li>
+		<li>Duplicate the folder <code>/app/Plugins/payu/resources/lang/en/</code> to <code>/app/Plugins/payu/resources/lang/&lt;abbr&gt;/</code>
+			<br>NOTE: Don't forget replace <code>&lt;abbr&gt;</code> by your language code (e.g. "de" for German language).
+		</li>
+		<li>Open the file <code>/app/Plugins/payu/resources/lang/&lt;abbr&gt;/messages.php</code> and translate it.
+			<br>NOTE: To translate the file, you must change the values and not the keys of PHP array.
+		</li>
+	</ul>
+	
+	<h3>Uninstallation</h3>
+	To uninstall this plugin, go to your Admin panel &rarr; Plugins (and click on "Uninstall") to uninstall it.
+	
+	<h3>Removing</h3>
+	To remove this plugin:
+	
+	<ul>
+		<li>Uninstall it</li>
+		<li>Go in the folder <code>/app/Plugins/</code> and remove the folder <code>payu/</code>.</li>
+	</ul>
+</div>
+</body>
+
+</html>
